@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:11px;
+}
+
+table {
+	border-collapse:collapse;
+}
+td {
+	border:1px solid #000;
+	border-collapse:collapse;
+	height:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	
+}
+
+
+div#container {
+	width:75%;
+	height:auto;
+	
+}
+
+div#header {
+	height:140px;
+	width:60%;
+	float:left;
+	
+}
+div#header-right {
+	height:140px;
+	width:40%;
+	text-align:right;
+	float:right;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+div#content {
+	width:100%;
+	height:auto;
+	float:left;
+	text-align:left;
+}
+div#menu {
+	width:100%;
+	height:37px;
+	background-image:url(../img/menu.png);
+	background-repeat:repeat-x;
+	float:left;
+	color:#FFF;
+	font-weight:400;
+	text-align:left;
+	font-size:14px;
+}
+
+
+div#menu a {
+	color:#FFFFFF;
+	text-decoration:none;
+	padding-left:30px;
+	
+}
+div#menu p {
+	padding-top:9px;
+}
+div#menu a:hover {
+	
+}
+	
+h1 {
+	font-family:Verdana, Geneva, sans-serif;
+	font-weight:normal;
+	font-color:#3c3c3c;
+	text-align:left;
+}
+p {
+	padding-top:6px;
+	margin:0px;
+}
